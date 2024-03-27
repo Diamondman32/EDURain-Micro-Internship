@@ -1,10 +1,11 @@
 import styled from "styled-components";
-export default function Neighborhood() {
-  const Image = styled.img`
+
+const Image = styled.img`
     width: 100vw;
     object-fit: contain;
   `;
 
+export default function Neighborhood() {
   return (
     <div className="neighborhood">
       <Image
